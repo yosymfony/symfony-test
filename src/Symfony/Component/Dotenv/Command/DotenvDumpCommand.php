@@ -22,7 +22,7 @@ use Symfony\Component\Dotenv\Dotenv;
 
 /**
  * A console command to compile .env files into a PHP-optimized file called .env.local.php.
- *
+ * This is a simple change
  * @internal
  */
 #[Autoconfigure(bind: ['$projectDir' => '%kernel.project_dir%', '$defaultEnv' => '%kernel.environment%'])]
